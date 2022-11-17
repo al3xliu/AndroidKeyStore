@@ -50,7 +50,7 @@ dependencies {
     implementation 'com.google.android.material:material:1.0.0'
     testImplementation 'junit:junit:4.12'
 
-    ext.checkerFrameworkVersion = '3.21.4-eisop1'
+    ext.checkerFrameworkVersion = '3.25.0-eisop1'
     annotationProcessor "org.checkerframework:linear-checker:0.1-SNAPSHOT"
     implementation files("/Users/alexliu/projects/linear-checker/linear-checker-qual-android/build/libs/linear-checker-qual-android.jar")
     compileOnly "io.github.eisop:checker-qual-android:${checkerFrameworkVersion}"
